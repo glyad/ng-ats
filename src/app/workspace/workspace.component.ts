@@ -1,9 +1,9 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'workspace',
+  selector: 'my-workspace',
   templateUrl: './workspace.component.html',
-  styleUrls: ['./workspace.component.css']
+  styleUrls: ['./workspace.component.scss']
 })
 export class WorkspaceComponent implements OnInit {
 

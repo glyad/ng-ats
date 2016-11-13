@@ -4,10 +4,11 @@ import { HttpModule } from '@angular/http';
 import { FormsModule } from '@angular/forms';
 
 import { AppComponent } from './app.component';
-// import { ApiService } from './shared';
+import { DataService } from './shared';
 import { routing } from './app.routing';
 import { removeNgStyles, createNewHosts } from '@angularclass/hmr';
 import { WorkspaceComponent } from './workspace/workspace.component';
+import { ContactListComponent } from './contacts/contactList.component';
 
 @NgModule({
   imports: [
@@ -18,10 +19,11 @@ import { WorkspaceComponent } from './workspace/workspace.component';
   ],
   declarations: [
     AppComponent,
-    WorkspaceComponent
+    WorkspaceComponent,
+    ContactListComponent
 ],
   providers: [
-    // ApiService
+     DataService
   ],
   bootstrap: [AppComponent]
 })
