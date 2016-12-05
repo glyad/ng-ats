@@ -35,3 +35,27 @@ jspm_packages
 
 # Optional REPL history
 .node_repl_history
+
+*.map
+
+src/app/app.component.js
+
+
+
+src/app/app.module.js
+
+src/app/app.routing.js
+
+src/app/contacts/contactList.component.js
+
+src/app/shared/data.service.js
+
+src/app/shared/index.js
+
+src/app/shared/nav-bar/nav-bar.component.js
+
+src/app/workspace/workspace.component.js
+
+src/main.js
+
+src/app/shared/nav-bar/nav-bar.module.js
